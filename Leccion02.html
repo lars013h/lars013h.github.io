@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Fabricando Sueños I.E.E. "JA" | Lecciones</title>
+<title>Fabricando Sueños I.E.E. "JA" | Lección 02</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -46,6 +46,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
         });
      </script>
+    <!-- light-box -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+   <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -59,11 +72,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-						    	<li class="current"><a href="Lecciones.html">Lecciones</a></li>
+						    	<li><a href="Lecciones.html">Lecciones</a></li>
 						    	<li><a href="integrantes.html">Integrantes</a></li>
-						    
-						    	<li><a href="experiencias.html">Experiencias</a></li>
 						    	
+						    	<li class="current"><a href="experiencias.html">Lección 02</a></li>
+						    
 								<li><a href="contactanos.html">Contáctanos</a></li>								
 								<div class="clear"></div>
 							</ul>
@@ -73,7 +86,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    	    </div>
 	            <div class="header_right">
 	    		  <!-- start search-->
-				  <div class="search-box">
+				   <div class="search-box">
 							<div id="sb-search" class="sb-search">
 								<form>
 									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
@@ -88,7 +101,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
-				    <ul class="icon1 sub-icon1 profile_img">
+				   <ul class="icon1 sub-icon1 profile_img">
 					 <li><a class="active-icon c1" href="#"> </a>
 						<ul class="sub-icon1 list">
 						  <div class="product_control_buttons">
@@ -96,7 +109,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  		<a href="#"><img src="images/close_edit.png" alt=""/></a>
 						  </div>
 						   <div class="clear"></div>
-						  
+						
 							 <div class="clear"></div>
 						  </div>
 						  <div class="clear"></div>
@@ -112,81 +125,87 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="main">
       <div class="shop_top">
 		<div class="container">
-			<div class="row shop_box-top">
-				<div class="col-md-3 shop_box"><a href="Leccion01.html">
-					<img src="images/pic5.jpg" class="img-responsive" alt=""/>
-					<span class="new-box">
-						<span class="new-label">01</span>
-					</span>
-					<span class="sale-box">
-						<span class="sale-label">Lección</span>
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Las Vocales</a></h3>
-						<p>Conocemos las 05 vocales del abecedario </p>
-						<span class="reducedfrom"></span>
-						<span class="actual"></span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#"></a></li>
-							<li class="shop_btn"><a href="#">ver más</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
-				</a></div>
-				 <div class="main">
-      <div class="shop_top">
-		<div class="container">
-				<div class="row shop_box-top">
-				<div class="col-md-3 shop_box"><a href="Leccion02.html">
-					<img src="images/pic2.jpg" class="img-responsive" alt=""/>
-					<span class="new-box">
-						<span class="new-label">02</span>
-					</span>
-					<span class="sale-box">
-						<span class="sale-label">Lección</span>
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">El Abecedario</a></h3>
-						<p>Conocemos las 27 vocales que componen el abecedario </p>
-						<span class="reducedfrom"></span>
-						<span class="actual"></span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#"></a></li>
-							<li class="shop_btn"><a href="#">Ver más</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
-				</a></div>
+			<div class="row ex_box">
+				<h3 class="m_2">Conocemos el Abecedario</h3>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
 					
-					 <div class="main">
-      <div class="shop_top">
-		<div class="container">
 					
-					<div class="row shop_box-top">
-				<div class="col-md-3 shop_box"><a href="Leccion01.html">
-					<img src="images/pic1.jpg" class="img-responsive" alt=""/>
-					<span class="new-box">
-						<span class="new-label">03</span>
-					</span>
-					<span class="sale-box">
-						<span class="sale-label">Lección</span>
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Los Números</a></h3>
-						<p>Proximamente </p>
-						<span class="reducedfrom"></span>
-						<span class="actual"></span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#"></a></li>
-							<li class="shop_btn"><a href="#">Ver más</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
-				
-				
-				
+				  <a class="fancybox" href="images/A2.gif" data-fancybox-group="gallery" title="Ejemplos con A"><img src="images/A1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Letra A
+					</div>
 				</a></div>
-			</div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/B2.gif" data-fancybox-group="gallery" title="Ejemplos con B"><img src="images/B1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Letra B
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e3.jpg" data-fancybox-group="gallery" title="Muchas Gracias"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+		    </div>
+		    <div class="row ex_box">
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e4.jpg" data-fancybox-group="gallery" title="Excelente aplicación"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e5.jpg" data-fancybox-group="gallery" title="Aprender es fácil"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e6.jpg" data-fancybox-group="gallery" title="Sencilla de usar"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+		    </div>
+		    <div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e1.jpg" data-fancybox-group="gallery" title="Excelente, gracias."><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e1.jpg" data-fancybox-group="gallery" title="Buena aplicación"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e9.jpg" data-fancybox-group="gallery" title="ran contenido"><img src="images/e1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						José Fernandez
+					</div>
+				</a></div>
+			   </div>
+		    </div>
 		 </div>
 	   </div>
 	  </div>
@@ -228,9 +247,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="row footer_bottom">
 				    <div class="copy">
-			            <p>© 2023 Created by <a href="https://www.facebook.com/willy.rhenderson" target="_blank">WillyH</a></p>
+			           <p>© 2023 Creado por <a href="https://www.facebook.com/willy.rhenderson" target="_blank">WillyH</a></p>
 		            </div>
-					  
    				</div>
 			</div>
 		</div>
